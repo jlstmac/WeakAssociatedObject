@@ -17,6 +17,7 @@
 		E61302E72A395D9800575D6C /* WeakAssociatedObjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E61302E62A395D9800575D6C /* WeakAssociatedObjectTests.m */; };
 		E61302F12A395D9800575D6C /* WeakAssociatedObjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E61302F02A395D9800575D6C /* WeakAssociatedObjectUITests.m */; };
 		E61302F32A395D9800575D6C /* WeakAssociatedObjectUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E61302F22A395D9800575D6C /* WeakAssociatedObjectUITestsLaunchTests.m */; };
+		E61303012A395DE800575D6C /* NSObject+Weak.m in Sources */ = {isa = PBXBuildFile; fileRef = E61303002A395DE800575D6C /* NSObject+Weak.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		E61302EC2A395D9800575D6C /* WeakAssociatedObjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeakAssociatedObjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E61302F02A395D9800575D6C /* WeakAssociatedObjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeakAssociatedObjectUITests.m; sourceTree = "<group>"; };
 		E61302F22A395D9800575D6C /* WeakAssociatedObjectUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeakAssociatedObjectUITestsLaunchTests.m; sourceTree = "<group>"; };
+		E61302FF2A395DE800575D6C /* NSObject+Weak.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Weak.h"; sourceTree = "<group>"; };
+		E61303002A395DE800575D6C /* NSObject+Weak.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Weak.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				E61302CE2A395D9700575D6C /* SceneDelegate.m */,
 				E61302D02A395D9700575D6C /* ViewController.h */,
 				E61302D12A395D9700575D6C /* ViewController.m */,
+				E61302FF2A395DE800575D6C /* NSObject+Weak.h */,
+				E61303002A395DE800575D6C /* NSObject+Weak.m */,
 				E61302D32A395D9700575D6C /* Main.storyboard */,
 				E61302D62A395D9800575D6C /* Assets.xcassets */,
 				E61302D82A395D9800575D6C /* LaunchScreen.storyboard */,
@@ -270,6 +275,7 @@
 				E61302CC2A395D9700575D6C /* AppDelegate.m in Sources */,
 				E61302DD2A395D9800575D6C /* main.m in Sources */,
 				E61302CF2A395D9700575D6C /* SceneDelegate.m in Sources */,
+				E61303012A395DE800575D6C /* NSObject+Weak.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

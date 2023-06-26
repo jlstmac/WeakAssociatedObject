@@ -6,6 +6,7 @@
 //
 
 #import "ViewController.h"
+#import "NSObject+Weak.h"
 
 @interface ViewController ()
 
@@ -16,6 +17,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    NSObject* categaryObj = NSObject.new;
+    {
+        UILabel* label = UILabel.new;
+        /// label超出作用域，会自动释放。
+        [categaryObj setWeakAssObject:label];
+    }
+    NSLog(@"weakObj:%@",[categaryObj weakAssObject]);
 }
 
 
